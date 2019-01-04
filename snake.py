@@ -38,7 +38,7 @@ def readUserInput():
 		print('quit')
 		return 'quit'
 	elif userInput == 'p':
-		field = initField(1,40)
+		field = initField(20,40)
 		printField(field)
 	else:
 		#print(userInput)
