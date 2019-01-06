@@ -47,7 +47,6 @@ class SnakeUnitTestLevel2(SnakeUnitTestLevel):
 
     def suite(self):
         self.levelTestSuite.addTests(unittest.makeSuite(SnakeUnitTestLevel2TestCase))
-        #print('SnakeUnitTestLevel suite()')
 
         return self.levelTestSuite
 

@@ -41,7 +41,6 @@ class SnakeUnitTestLevel1(SnakeUnitTestLevel):
 
 
     def initLevel(self):
-
     	self.levelName = 'Level 1: Python Programm öffnen'
 
     # simple runLevel and evaluateLevel method for first level
@@ -53,12 +52,6 @@ class SnakeUnitTestLevel1(SnakeUnitTestLevel):
     def evaluateLevel(self):
         self.successMessage()
         self.levelCompleted = True
-
-    # def suite(self):
-    #     self.levelTestSuite.addTests(unittest.makeSuite(SnakeUnitTestLevel1TestCase))
-    #     print('SnakeUnitTestLevel suite()')
-
-    #     return self.levelTestSuite
 
 
 
