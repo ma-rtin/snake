@@ -1,6 +1,11 @@
 def printAppInfo():
 	print('Snake gestartet!')
 
+def initField():
+	field = [1,2,3]
+
+	return field
+
 
 # def printField(field):
 	
