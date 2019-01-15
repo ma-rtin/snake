@@ -1,8 +1,11 @@
 def printAppInfo():
 	print('Snake gestartet!')
 
-def initField():
-	field = [1,2,3]
+def initField(numRows = 3):
+	field = []
+
+	for rowIdx in range(numRows):
+		field.append('*')
 
 	return field
 

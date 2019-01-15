@@ -45,7 +45,7 @@ class SnakeUnitTestLevel():
             self.levelCompleted = True
         else:
         	print('('+self.levelName + ') nicht erfolgreich\n\n')
-        	print('Aufgabe für dieses Level:')
+        	print('Aufgabe für dieses Level:\n')
         	print(self.levelTask)
         #print('Level evaluated')
 
