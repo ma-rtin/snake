@@ -1,11 +1,17 @@
 def printAppInfo():
 	print('Snake gestartet!')
 
-def initField(numRows = 3):
+def initField(numRows = 3, numCols = 1):
 	field = []
 
 	for rowIdx in range(numRows):
-		field.append('*')
+		row = []
+		for colIdx in range(numCols):
+			if rowIdx == 0 or rowIdx==numRows-1 or colIdx == 0 or colIdx == numCols-1:
+				row.append('#')
+			else:
+				row.append('')
+		field.append(row)
 
 	return field
 
